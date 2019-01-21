@@ -1,0 +1,3187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="GUI" XmlFormat="14">
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Variant>Mirror</Variant>
+        <DetectMovedFiles>true</DetectMovedFiles>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>*</Item>
+        </Include>
+        <Exclude>
+            <Item>/.fseventsd/</Item>
+            <Item>/.Spotlight-V100/</Item>
+            <Item>/.Trashes/</Item>
+            <Item>*/.DS_Store</Item>
+            <Item>*/._.*</Item>
+        </Exclude>
+        <TimeSpan Type="None">0</TimeSpan>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Android_Developments</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Android_Developments</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Backup Files</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Backup Files</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Computer Systems</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Computer Systems</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Electrical_Systems</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Electrical_Systems</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Electronics Systems</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Electronics Systems</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Embedded_Systems</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Embedded_Systems</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Images</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Images</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Adobe_XD</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Adobe_XD</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Advanced_Renamer</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Advanced_Renamer</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Android_Studio</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Android_Studio</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Arduino_IDE</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Arduino_IDE</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/B4A</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/B4A</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*.meta</Item>
+                    <Item>*\Objects\</Item>
+                    <Item>*\Files\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Bash</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Bash</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Batch</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Batch</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_GCC</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_GCC</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Go</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Go</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Gradle</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Gradle</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Java</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Java</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Lua</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Lua</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Mono</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Mono</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Node</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Node</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_php</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_php</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\vendor\</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Python</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Python</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Python3</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Python3</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Ruby</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Ruby</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CMD_Ruby_Gems</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CMD_Ruby_Gems</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CN1Cordova</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CN1Cordova</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\lib\impl\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/CodenameOne</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/CodenameOne</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\lib\impl\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Cordova</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Cordova</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Dev_C++</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Dev_C++</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Docker</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Docker</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Dosbox</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Dosbox</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/eC</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/eC</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Eclipse_ADT</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Eclipse_ADT</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>\.metadata\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                    <Item>*\.apt_generated\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Eclipse_J2SE</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Eclipse_J2SE</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>\.metadata\</Item>
+                    <Item>*\bin\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/firebird</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/firebird</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Flowgorithm</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Flowgorithm</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/FreeFileSync</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/FreeFileSync</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*.log</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Geogibra</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Geogibra</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Google_App_Engine</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Google_App_Engine</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Groovy</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Groovy</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Ignite</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Ignite</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Inkscape</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Inkscape</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/IntelliJ_IDEA</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/IntelliJ_IDEA</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/ionic</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/ionic</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/ionic_angular</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/ionic_angular</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/ionic2</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/ionic2</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/ionic3</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/ionic3</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Jupyter</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Jupyter</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Komodo_IDE</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Komodo_IDE</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Maven</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Maven</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\target\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/MikTex</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/MikTex</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Misc</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Misc</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/MongoDB</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/MongoDB</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/MySQL_Data_Compare</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/MySQL_Data_Compare</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NativeBase</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NativeBase</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_Apache_OpenOffice</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_Apache_OpenOffice</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_Arduino</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_Arduino</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_C</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_C</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_C++</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_C++</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_Chrome_Extension</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_Chrome_Extension</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_Fortran</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_Fortran</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_Gluon</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_Gluon</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                    <Item>*\.gradle\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_Gradle</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_Gradle</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_Groovy</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_Groovy</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_J2SE</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_J2SE</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_JavaFX</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_JavaFX</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_Maven</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_Maven</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_MinGW_W64_C</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_MinGW_W64_C</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/NetBeans_NBAndroid</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/NetBeans_NBAndroid</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_Python</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_Python</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_Ruby</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_Ruby</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Netbeans_Vaadin</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Netbeans_Vaadin</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                    <Item>*\bin\</Item>
+                    <Item>*\gen\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/OpenOffice_Base</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/OpenOffice_Base</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Packet_Tracer</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Packet_Tracer</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Padre</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Padre</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/php</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/php</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/pipenv</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/pipenv</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/PlayN</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/PlayN</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\target\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/PowerShell</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/PowerShell</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/PyCharm</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/PyCharm</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/PyCharm_py2</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/PyCharm_py2</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/PyCharm_py3</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/PyCharm_py3</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/R</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/R</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\.Rapp.history</Item>
+                    <Item>*\.Rhistory</Item>
+                    <Item>*\.RData</Item>
+                    <Item>*\*-Ex.R</Item>
+                    <Item>*\*.tar.gz</Item>
+                    <Item>*\*.Rcheck\</Item>
+                    <Item>*\.Rproj.user\</Item>
+                    <Item>*\vignettes\*.html</Item>
+                    <Item>*\vignettes\*.pdf</Item>
+                    <Item>*\.httr-oauth</Item>
+                    <Item>*\*_cache\</Item>
+                    <Item>*\cache\</Item>
+                    <Item>*\*.utf8.md</Item>
+                    <Item>*\*.knit.md</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/React-Native</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/React-Native</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\vendor\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Ruby_ERB</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Ruby_ERB</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Shell</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Shell</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Spyder</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Spyder</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Tests</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Tests</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Unix_Scripts</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Unix_Scripts</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Visual_Studio</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Visual_Studio</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                    <Item>*\packages\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2008</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2008</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                    <Item>*\packages\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2010</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2010</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                    <Item>*\packages\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2012</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2012</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                    <Item>*\packages\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2013</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2013</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                    <Item>*\packages\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2017</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Visual_Studio_2017</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                    <Item>*\packages\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/VS_Code_Batch</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/VS_Code_Batch</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/VS_Code_ionic1</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/VS_Code_ionic1</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/VS_Code_mingw64</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/VS_Code_mingw64</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/VS_Code_Python3</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/VS_Code_Python3</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/VS_Code_Python34</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/VS_Code_Python34</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/WebstormProjects</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/WebstormProjects</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Weex</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Weex</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item>*\platforms\</Item>
+                    <Item>*\plugins\</Item>
+                    <Item>*\.gradle\</Item>
+                    <Item>*\build\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Xamarin</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Xamarin</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\obj\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/Zend_Studio</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/Zend_Studio</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\vendor\</Item>
+                    <Item>*\.metadata\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Laboratory/ZeroBrane_Studio</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/ZeroBrane_Studio</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Micro Processors &amp; Controllers</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Micro Processors &amp; Controllers</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Networking Principles</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Networking Principles</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Physics</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Physics</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Programming Contents</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Programming Contents</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Programming Languages</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Programming Languages</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Projects</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Projects</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Research_Files</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Research_Files</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Satellite Dish Tracking Systems</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Satellite Dish Tracking Systems</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Scripting_Langauges</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Scripting_Langauges</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Seminars</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Seminars</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Songs</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Songs</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\Folder.jpg</Item>
+                    <Item>*\AlbumArtSmall.jpg</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/Today</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Today</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Appengine</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Appengine</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/ASP_NET</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/ASP_NET</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/CFML</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/CFML</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/CGI</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/CGI</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/django</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/django</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Flask</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Flask</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/ftp</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/ftp</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\aspnet_client\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Go</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Go</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/HTML</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/HTML</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/HTML_CSS_JS_Bootstrap</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/HTML_CSS_JS_Bootstrap</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/HTML_JS_CSS</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/HTML_JS_CSS</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/jekyll</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/jekyll</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/JSP</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/JSP</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\build\</Item>
+                    <Item>*\dist\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Media_test</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Media_test</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Node_js</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Node_js</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Node_js_client</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Node_js_client</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Perl</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Perl</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/php</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/php</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>*\vendor\</Item>
+                    <Item>*\node_modules\</Item>
+                    <Item>*\bower_components\</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/production</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/production</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Python2</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Python2</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Python3</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Python3</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Ruby</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Ruby</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot/Ruby_Rails</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot/Ruby_Rails</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item/>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+        <Pair>
+            <Left>/Volumes/New Volume/DK-HP-PA-2000AR/wwwroot</Left>
+            <Right>/Users/manec/Banee_Data/DK-HP-PA-2000AR/wwwroot</Right>
+            <Filter>
+                <Include>
+                    <Item>*</Item>
+                </Include>
+                <Exclude>
+                    <Item>\System Volume Information\</Item>
+                    <Item>\$Recycle.Bin\</Item>
+                    <Item>\RECYCLER\</Item>
+                    <Item>\RECYCLED\</Item>
+                    <Item>*\desktop.ini</Item>
+                    <Item>*\thumbs.db</Item>
+                    <Item>/Appengine/</Item>
+                    <Item>/ASP_NET/</Item>
+                    <Item>/CFML/</Item>
+                    <Item>/CGI/</Item>
+                    <Item>/django/</Item>
+                    <Item>/Flask/</Item>
+                    <Item>/ftp/</Item>
+                    <Item>/Go/</Item>
+                    <Item>/HTML_CSS_JS_Bootstrap/</Item>
+                    <Item>/jekyll/</Item>
+                    <Item>/Media_test/</Item>
+                    <Item>/Moonshine/</Item>
+                    <Item>/Perl/</Item>
+                    <Item>/production/</Item>
+                    <Item>/Python2/</Item>
+                    <Item>/Python3/</Item>
+                    <Item>/Ruby/</Item>
+                    <Item>/Ruby_Rails/</Item>
+                    <Item>\php\</Item>
+                    <Item>\React\</Item>
+                    <Item>\Node_js\</Item>
+                    <Item>\aspnet_client\</Item>
+                    <Item>\JSP\</Item>
+                    <Item>\Node_js_client\</Item>
+                    <Item>\HTML\</Item>
+                    <Item>\HTML_JS_CSS\</Item>
+                </Exclude>
+                <TimeSpan Type="None">0</TimeSpan>
+                <SizeMin Unit="None">0</SizeMin>
+                <SizeMax Unit="None">0</SizeMax>
+            </Filter>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="false" Retry="0" Delay="5"/>
+    <LogFolder>/Users/manec/Banee_Data/DK-HP-PA-2000AR/Laboratory/FreeFileSync</LogFolder>
+    <PostSyncCommand Condition="Completion"/>
+    <Gui>
+        <MiddleGridView>Action</MiddleGridView>
+    </Gui>
+</FreeFileSync>
