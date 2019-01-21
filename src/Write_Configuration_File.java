@@ -28,21 +28,43 @@ public class Write_Configuration_File {
             rootElement.setAttribute("XmlFormat", "14");
             doc.appendChild(rootElement);
 
-            // staff elements
-//            Element staff = doc.createElement("Staff");
-//            rootElement.appendChild(staff);
+            // Compare elements
+            Element compare = doc.createElement("Compare");
+            rootElement.appendChild(compare);
+            
+            // Variant elements
+            Element variant = doc.createElement("Variant");
+            variant.appendChild(doc.createTextNode("TimeAndSize"));
+            compare.appendChild(variant);
+            
+            Element Symlinks = doc.createElement("Symlinks");
+            Symlinks.appendChild(doc.createTextNode("Exclude"));
+            compare.appendChild(Symlinks);
+            
+            Element IgnoreTimeShift = doc.createElement("IgnoreTimeShift");
+            compare.appendChild(IgnoreTimeShift);
+            
+            // Synchronize elements
+            Element Synchronize = doc.createElement("Synchronize");
+            rootElement.appendChild(Synchronize);
+            
+            // Variant elements
+            Element variant2 = doc.createElement("Variant");
+            variant2.appendChild(doc.createTextNode("Mirror"));
+            Synchronize.appendChild(variant2);
+            
+            Element DetectMovedFiles = doc.createElement("DetectMovedFiles");
+            DetectMovedFiles.appendChild(doc.createTextNode("true"));
+            Synchronize.appendChild(DetectMovedFiles);
+            
+            Element DeletionPolicy = doc.createElement("DeletionPolicy");
+            DeletionPolicy.appendChild(doc.createTextNode("RecycleBin"));
+            Synchronize.appendChild(DeletionPolicy);
+            
+            Element VersioningFolder = doc.createElement("VersioningFolder");
+            VersioningFolder.setAttribute("Style", "Replace");
+            Synchronize.appendChild(VersioningFolder);
 
-            // set attribute to staff element
-//            Attr attr = doc.createAttribute("id");
-//            attr.setValue("1");
-//            staff.setAttributeNode(attr);
-            // shorten way
-//            staff.setAttribute("id", "1");
-//            // firstname elements
-//            Element firstname = doc.createElement("firstname");
-//            firstname.appendChild(doc.createTextNode("yong"));
-//            staff.appendChild(firstname);
-//
 //            // lastname elements
 //            Element lastname = doc.createElement("lastname");
 //            lastname.appendChild(doc.createTextNode("mook kim"));

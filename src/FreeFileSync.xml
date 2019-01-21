@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><FreeFileSync XmlFormat="14" XmlType="GUI"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><FreeFileSync XmlFormat="14" XmlType="GUI"><Compare><Variant>TimeAndSize</Variant><Symlinks>Exclude</Symlinks><IgnoreTimeShift/></Compare><Synchronize><Variant>Mirror</Variant><DetectMovedFiles>true</DetectMovedFiles><DeletionPolicy>RecycleBin</DeletionPolicy><VersioningFolder Style="Replace"/></Synchronize></FreeFileSync>
