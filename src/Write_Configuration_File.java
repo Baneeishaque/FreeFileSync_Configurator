@@ -1,5 +1,7 @@
 
 import java.io.File;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -65,7 +67,7 @@ public class Write_Configuration_File {
             VersioningFolder.setAttribute("Style", "Replace");
             Synchronize.appendChild(VersioningFolder);
 
-            // Synchronize elements
+            // Filter elements
             Element Filter = doc.createElement("Filter");
             rootElement.appendChild(Filter);
 
@@ -134,44 +136,79 @@ public class Write_Configuration_File {
 
             Filter.appendChild(Exclude);
 
-//            Element DetectMovedFiles = doc.createElement("DetectMovedFiles");
-//            DetectMovedFiles.appendChild(doc.createTextNode("true"));
-//            Synchronize.appendChild(DetectMovedFiles);
-//            
-//            Element DeletionPolicy = doc.createElement("DeletionPolicy");
-//            DeletionPolicy.appendChild(doc.createTextNode("RecycleBin"));
-//            Synchronize.appendChild(DeletionPolicy);
-//            
-//            Element VersioningFolder = doc.createElement("VersioningFolder");
-//            VersioningFolder.setAttribute("Style", "Replace");
-//            Synchronize.appendChild(VersioningFolder);
-//            // lastname elements
-//            Element lastname = doc.createElement("lastname");
-//            lastname.appendChild(doc.createTextNode("mook kim"));
-//            staff.appendChild(lastname);
-//
-//            // nickname elements
-//            Element nickname = doc.createElement("nickname");
-//            nickname.appendChild(doc.createTextNode("mkyong"));
-//            staff.appendChild(nickname);
-//
-//            // salary elements
-//            Element salary = doc.createElement("salary");
-//            salary.appendChild(doc.createTextNode("100000"));
-//            staff.appendChild(salary);
+            Element element = doc.createElement("TimeSpan");
+            element.setAttribute("Type", "None");
+            element.appendChild(doc.createTextNode("0"));
+            Filter.appendChild(element);
+
+            element = doc.createElement("SizeMin");
+            element.setAttribute("Unit", "None");
+            element.appendChild(doc.createTextNode("0"));
+            Filter.appendChild(element);
+
+            element = doc.createElement("SizeMax");
+            element.setAttribute("Unit", "None");
+            element.appendChild(doc.createTextNode("0"));
+            Filter.appendChild(element);
+
+            element = doc.createElement("FolderPairs");
+
+            Element child_element = doc.createElement("Pair");
+            Element grand_child_element = doc.createElement("Left");
+            grand_child_element.appendChild(doc.createTextNode("Android_Developments"));
+            child_element.appendChild(grand_child_element);
+            grand_child_element = doc.createElement("Right");
+            grand_child_element.appendChild(doc.createTextNode("Android_Developments"));
+            child_element.appendChild(grand_child_element);
+            element.appendChild(child_element);
+
+            Include = doc.createElement("Include");
+            Item = doc.createElement("Item");
+            Item.appendChild(doc.createTextNode("*"));
+            Include.appendChild(Item);
+            element.appendChild(Include);
+
+            Exclude = doc.createElement("Exclude");
+            Item = doc.createElement("Item");
+            Item.appendChild(doc.createTextNode("\\System Volume Information\\"));
+            Exclude.appendChild(Item);
+            element.appendChild(Exclude);
+
+            rootElement.appendChild(element);
+
+            element = doc.createElement("Errors");
+            element.setAttribute("Ignore", "False");
+            element.setAttribute("Retry", "0");
+            element.setAttribute("Delay", "5");
+            rootElement.appendChild(element);
+
+            element = doc.createElement("LogFolder");
+            element.appendChild(doc.createTextNode("FreeFileSync"));
+            rootElement.appendChild(element);
+
+            element = doc.createElement("PostSyncCommand");
+            element.setAttribute("Condition", "Completion");
+            rootElement.appendChild(element);
+
+            element = doc.createElement("Gui");
+            child_element = doc.createElement("MiddleGridView");
+            child_element.appendChild(doc.createTextNode("Action"));
+            element.appendChild(child_element);
+            rootElement.appendChild(element);
+
             // write the content into xml file
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             DOMSource source = new DOMSource(doc);
-            StreamResult result = new StreamResult(new File("FreeFileSync.xml"));
+            StreamResult result = new StreamResult(new File("FreeFileSync.ffs_gui"));
 
-            // Output to console for testing
-//            StreamResult result = new StreamResult(System.out);
             transformer.transform(source, result);
 
             System.out.println("File saved!");
 
         } catch (ParserConfigurationException | TransformerException pce) {
+
+            Logger.getLogger(Write_Configuration_File.class.getName()).log(Level.SEVERE, null, pce);
         }
     }
 }
